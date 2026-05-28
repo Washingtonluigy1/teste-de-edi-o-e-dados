@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Fundo escuro -->
+  <rect width="1200" height="630" fill="#0f1923"/>
+  
+  <!-- Painel dourado para logo -->
+  <rect x="80" y="120" width="340" height="390" fill="#c9a227" rx="10"/>
+  
+  <!-- Triângulos representando edifício -->
+  <polygon points="140,280 200,220 200,340" fill="#0f1923"/>
+  <polygon points="260,280 320,220 320,340" fill="#0f1923"/>
+  
+  <!-- Linha de base -->
+  <rect x="80" y="500" width="340" height="8" fill="#0f1923"/>
+  
+  <!-- BASEFORT texto principal -->
+  <text x="500" y="280" font-family="Arial, sans-serif" font-size="96" font-weight="bold" fill="white" letter-spacing="2">BASEFORT</text>
+  
+  <!-- CONSTRUÇÕES subtítulo -->
+  <text x="500" y="380" font-family="Arial, sans-serif" font-size="64" font-weight="600" fill="#c9a227" letter-spacing="3">CONSTRUÇÕES</text>
+  
+  <!-- Sistema de Gestão -->
+  <text x="500" y="480" font-family="Arial, sans-serif" font-size="36" fill="#d0d0d0" font-weight="500">Sistema de Gestão</text>
+  
+  <!-- Decoração - linhas sutis -->
+  <line x1="480" y1="250" x2="1100" y2="250" stroke="#c9a227" stroke-width="2" opacity="0.3"/>
+  <line x1="480" y1="400" x2="1100" y2="400" stroke="#c9a227" stroke-width="2" opacity="0.3"/>
+</svg>

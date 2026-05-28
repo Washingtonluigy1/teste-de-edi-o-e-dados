@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Basefort - Gerador de Preview</title>
+    <style>
+        body { margin: 0; padding: 0; background: #0f1923; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="1200" height="630"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Fundo
+        ctx.fillStyle = '#0f1923';
+        ctx.fillRect(0, 0, 1200, 630);
+
+        // Logo dourada
+        ctx.fillStyle = '#c9a227';
+        ctx.fillRect(80, 120, 340, 390);
+
+        // Triângulos
+        ctx.fillStyle = '#0f1923';
+        ctx.beginPath();
+        ctx.moveTo(140, 280);
+        ctx.lineTo(200, 220);
+        ctx.lineTo(200, 340);
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(260, 280);
+        ctx.lineTo(320, 220);
+        ctx.lineTo(320, 340);
+        ctx.fill();
+
+        // Textos
+        ctx.fillStyle = 'white';
+        ctx.font = 'bold 96px Arial';
+        ctx.fillText('BASEFORT', 500, 280);
+
+        ctx.fillStyle = '#c9a227';
+        ctx.font = '600 64px Arial';
+        ctx.fillText('CONSTRUÇÕES', 500, 380);
+
+        ctx.fillStyle = '#d0d0d0';
+        ctx.font = '500 36px Arial';
+        ctx.fillText('Sistema de Gestão', 500, 480);
+
+        // Download
+        canvas.toBlob(blob => {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'og-image.png';
+            a.click();
+        });
+    </script>
+</body>
+</html>

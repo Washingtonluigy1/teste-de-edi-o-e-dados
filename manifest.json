@@ -1,0 +1,36 @@
+{
+  "name": "Sistema De Gestão Basefort",
+  "short_name": "Basefort",
+  "description": "Solução profissional para gestão de empresas de construção e obras",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0f1923",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' fill='%230f1923'/%3E%3Crect x='29' y='48' width='134' height='96' fill='%23c9a227'/%3E%3Cpath d='M 48 96 L 76 67 L 76 125 Z' fill='%230f1923'/%3E%3Cpath d='M 96 96 L 124 67 L 124 125 Z' fill='%230f1923'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%230f1923'/%3E%3Crect x='77' y='128' width='358' height='256' fill='%23c9a227'/%3E%3Cpath d='M 128 256 L 204 179 L 204 333 Z' fill='%230f1923'/%3E%3Cpath d='M 256 256 L 332 179 L 332 333 Z' fill='%230f1923'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'%3E%3Crect width='540' height='720' fill='%230f1923'/%3E%3Crect x='30' y='60' width='480' height='600' fill='%23ffffff'/%3E%3Crect x='30' y='60' width='480' height='80' fill='%23f0f0f0'/%3E%3Ctext x='270' y='105' font-family='Arial' font-size='32' font-weight='bold' fill='%230f1923' text-anchor='middle'%3EBasefort%3C/text%3E%3C/svg%3E",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
